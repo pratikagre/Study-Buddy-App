@@ -4,7 +4,7 @@
   "description": "StudySync is a suite of tools that help students study more effectively.",
   "main": "src/server.js",
   "scripts": {
-    "start": "node local-dev.js",
+    "start": "node src/server.js",
     "dev": "nodemon local-dev.js",
     "test-swagger": "node test-swagger.js",
     "vercel": "vercel",
